@@ -15,6 +15,7 @@ Subsequent response definitions will only detail the expected value of the 'data
 <br />
 
 
+
 ### List all devices
 
 ***Definition***

@@ -13,7 +13,7 @@ All responses will have the form
 
 Subsequent response definitions will only detail the expected value of the 'data field' 
 <br />
-
+<br />
 
 ### List all devices
 

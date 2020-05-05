@@ -1,23 +1,23 @@
-#Device Registry Service
+# Device Registry Service
 
-##Usage 
+## Usage 
 
 All responses will have the form 
 
-'''json 
+``` json 
 {
     data: Mixed type holding the content of the response 
     message: Description of what happned 
 }
-'''
+```
 
 Subsequent response definitions will only detail the expected value of the 'data field'
 
-**###List all devlices**
+**### List all devlices**
 
 ***Definition***
 
-'Get /devices'
+`Get /devices`
 
 ***Response***
 

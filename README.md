@@ -13,8 +13,6 @@ All responses will have the form
 
 Subsequent response definitions will only detail the expected value of the 'data field' 
 
-<br />
-
 ## List all devices
 
 ***Definition***
@@ -41,7 +39,6 @@ Subsequent response definitions will only detail the expected value of the 'data
     }
 ]
 ```
-<br />
 
 ## Resistering a new device 
 
@@ -71,8 +68,6 @@ If a device with the given identifier already exists, the exsting device will be
 }
 ``` 
 
-<br />
-
 ## Lookup device details 
 
 `GET /device/<identifier>`
@@ -90,8 +85,6 @@ If a device with the given identifier already exists, the exsting device will be
     "controller_gateway": "192.1.68.0.2"
 }
 ```
-
-<br />
 
 ## Delete a device 
 

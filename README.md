@@ -1,5 +1,5 @@
 # Device Registry Service
-1
+
 ## Usage 
 
 All responses will have the form 

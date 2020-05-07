@@ -1,6 +1,6 @@
 # Device Registry Service
 
-## Usage 
+### Usage 
 
 All responses will have the form 
 
@@ -13,7 +13,7 @@ All responses will have the form
 
 Subsequent response definitions will only detail the expected value of the 'data field' 
 
-### List all devices
+## List all devices
 
 ***Definition***
 
@@ -39,8 +39,9 @@ Subsequent response definitions will only detail the expected value of the 'data
     }
 ]
 ```
+<br />
 
-### Resistering a new device 
+## Resistering a new device 
 
 ***Definition*** 
 

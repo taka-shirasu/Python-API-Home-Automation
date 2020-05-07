@@ -41,7 +41,7 @@ Subsequent response definitions will only detail the expected value of the 'data
     }
 ]
 ```
-
+<br />
 <br />
 
 ### Resistering a new device 
@@ -70,10 +70,39 @@ If a device with the given identifier already exists, the exsting device will be
     "device_type": "switch",
     "controller_gateway": "192.1.68.0.2"
 }
-````
+``` 
 
+<br />
+<br />
 
+## Lookup device details 
 
+`GET /device/<identifier>`
 
+***Response***
 
+- `404 Not Found` if the device does not exist
+- `200 OK` on success 
 
+```json 
+{
+    "identifier": "floor-lamp",
+    "name": "Floor Lmap",
+    "device_type": "switch",
+    "controller_gateway": "192.1.68.0.2"
+}
+```
+
+<br />
+<br />
+
+## Delete a device 
+
+***Definition***
+
+`DELETE /devices/<identifier>`
+
+**Response**
+
+- `404 Not Found` if the device does not exist 
+- `204 No Content` on success 

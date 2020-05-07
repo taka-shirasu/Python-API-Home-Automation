@@ -12,8 +12,6 @@ All responses will have the form
 ```
 
 Subsequent response definitions will only detail the expected value of the 'data field' 
-<br />
-<br />
 
 ### List all devices
 
@@ -41,8 +39,6 @@ Subsequent response definitions will only detail the expected value of the 'data
     }
 ]
 ```
-<br />
-<br />
 
 ### Resistering a new device 
 
@@ -73,7 +69,6 @@ If a device with the given identifier already exists, the exsting device will be
 ``` 
 
 <br />
-<br />
 
 ## Lookup device details 
 
@@ -93,7 +88,6 @@ If a device with the given identifier already exists, the exsting device will be
 }
 ```
 
-<br />
 <br />
 
 ## Delete a device 

@@ -85,7 +85,6 @@ If a device with the given identifier already exists, the exsting device will be
     "controller_gateway": "192.1.68.0.2"
 }
 ```
-
 ## Delete a device 
 
 ***Definition***
@@ -95,4 +94,4 @@ If a device with the given identifier already exists, the exsting device will be
 **Response**
 
 - `404 Not Found` if the device does not exist 
-- `204 No Content` on success 
+- `204 No Content` on success docker-compose up -d
